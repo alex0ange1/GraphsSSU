@@ -1,0 +1,20 @@
+{
+    "directed": false,
+    "weighted": true,
+    "adj_list": {
+        "A": [
+            {"to": "B", "weight": 4},
+            {"to": "C", "weight": 1}
+        ],
+        "B": [
+            {"to": "A", "weight": 4},
+            {"to": "C", "weight": 2}
+        ],
+        "C": [
+            {"to": "A", "weight": 1},
+            {"to": "B", "weight": 2}
+        ],
+        "D": [
+        ]
+    }
+}
